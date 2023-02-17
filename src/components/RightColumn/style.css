@@ -1,0 +1,166 @@
+.right-column-main-container{
+    height:92vh;
+    width: 100%;
+}
+
+.nav-items-container{
+    display: grid;
+    grid-template-columns: 1fr 1fr 200px 200px;
+}
+
+section{
+    border: 1px solid rgba(0, 0, 0,0.2);
+    height:80px;
+    margin-right:3px;
+    padding-left: 5px;
+    background: rgba(228, 128, 128, 0.1);
+}
+
+.headings{
+    font-family: "Verdana";
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 1.5;
+}
+
+.first{
+    color: blue;
+}
+
+.middle-buttons-container{
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+    grid-template-rows: repeat(11, 1fr);
+    gap: 3px 3px;
+}
+
+.all-btns{
+    height:44px;
+    font-size: 13px;
+    font-weight: 600;
+    font-family: "Verdana";
+    border: none;
+    outline: none;
+    padding: 5px;
+    cursor: pointer;
+}
+
+.fuel-btns{
+    background: rgb(99, 163, 99);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    color:#ffffff;
+}
+
+img{
+    height:100%;
+}
+
+.fuel-image{
+    height: 100%;
+}
+
+.not-used-btns{
+    background: rgba(13, 33, 80, 0.5);
+}
+
+.approve-fuel{
+    color:#ffffff;
+    background-color: rgb(77, 134, 77);
+}
+
+.prepay-btns{
+    background: rgba(179, 194, 216,0.8);
+}
+
+.network-function{
+    background: tomato;
+}
+
+.manual-fuel{
+    background: yellow;
+}
+
+.stop-fuel{
+    background: red;
+}
+
+.pay-btns{
+    background-color: rgba(40, 82, 219, 0.8);
+    color: white;
+}
+
+
+.news-paper{
+    background-color: rgba(227, 247, 116, 0.8);
+}
+
+.vape{
+    background-color: rgba(37, 114, 230, 0.8);
+}
+
+.clock{
+    background-color: rgba(142, 31, 194, 0.5);
+}
+
+.novality{
+    background-color: rgba(238, 135, 38, 0.8);
+}
+
+.coffee{
+    background-color: brown;
+    color:#ffffff;
+}
+
+.cig{
+    background-color: rgb(179, 154, 140);
+    color: #ffffff;
+}
+
+.pump{
+    background-color: rgb(125, 180, 125);
+    color:white;
+}
+
+.lotto{
+    background-color: rgb(39, 224, 39);
+}
+
+.check{
+    background-color: rgb(179, 230, 179);
+}
+
+.online{
+    background-color: rgb(221, 178, 185);
+}
+
+.money{
+    background-color:rgba(233, 168, 57, 0.3);
+}
+
+.quantity{
+    background: rgba(13, 33, 80, 0.2);
+}
+
+.low-grocery{
+    background-color: aqua;
+}
+
+.beer{
+    background-color: blueviolet;
+    color: #ffffff;
+}
+
+.tobacco{
+    background-color: rgba(235, 208, 164, 0.8);
+}
+
+.void-ticket{
+    background-color: #f74d69;
+}
+
+.ice-two{
+    background-color: rgba(82, 138, 223, 0.8);
+}

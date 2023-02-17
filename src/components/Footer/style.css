@@ -1,0 +1,93 @@
+.footer-container{
+    height:8vh;
+    width:100%;
+    background-color: black;
+    display: grid;
+    grid-template-columns: repeat(8,1fr);
+    padding-top: 2px;
+    padding-bottom: 2px;
+    column-gap: 10px;
+    position: relative;
+}
+
+.footer-btns{
+    background-color: transparent;
+    outline: none;
+    border: 5px solid rgb(204, 198, 198);
+    color: white;
+    font-family: "Verdana";
+    font-size: 15px;
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+.cals-image{
+    width:300px;
+    height:280px;
+}
+
+.img-container{
+    position: absolute;
+    left:53%;
+    bottom:0;
+    width: 280px;
+    height: 290px;
+    border: 5px solid black;
+    border-radius: 15px;
+    padding-top:20px;
+    padding-left: 30px;
+    padding-right: 30px;
+    background: white;
+
+}
+
+.keypad-heading {
+    font-family: "Verdana";
+    font-size: 12px;
+    text-align: center;
+    font-weight: 500;
+    margin-bottom: 10px;
+}
+
+.keyboard {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+.num-btns {
+    height: 35px;
+    margin-right: 10px;
+    margin-bottom: 12px;
+    text-align: center;
+    background-color: black;
+    color: white;
+    border: 5px solid lightgrey;
+    font-family: "Verdana";
+    font-size: 13px;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+.zeros-container {
+    display: grid;
+    grid-template-columns: 68px 1fr;
+}
+
+.seperate-btns {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+.operations-btns {
+    height: 35px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    text-align: center;
+    border: 5px solid lightgrey;
+    background: blue;
+    color: white;
+    font-family: "Verdana";
+    font-size: 10px;
+    font-weight: 600;
+    cursor: pointer;
+}
